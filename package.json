@@ -1,0 +1,27 @@
+{
+  "name": "App",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "flow": "flow check",
+    "lint": "eslint --ext .js,.jsx src",
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "react": "^15.2.1",
+    "react-native": "^0.29.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-preset-react-native": "^1.9.0",
+    "concurrently": "^2.2.0",
+    "eslint": "^3.0.1",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-filenames": "^1.0.0",
+    "eslint-plugin-react": "^5.2.2"
+  }
+}
