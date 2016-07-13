@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 import { Text, ScrollView } from 'react-native'
 import { connect } from 'react-redux'
 
-import { fetchData } from '../actions'
+import { fetchData } from '../../actions'
 
 class App extends Component {
   componentDidMount() {
