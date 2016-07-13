@@ -4,6 +4,7 @@
 import React, { Component } from 'react'
 import { Text, ScrollView } from 'react-native'
 import { connect } from 'react-redux'
+
 import { fetchData } from '../actions'
 
 class App extends Component {
@@ -13,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <ScrollView
-        style={{flex: 1}}
+        style={{flex: 1, margin: 128}}
         contentContainerStyle={{
           justifyContent: 'center',
           alignItems: 'center'
